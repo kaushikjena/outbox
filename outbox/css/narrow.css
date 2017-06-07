@@ -1,0 +1,116 @@
+@media screen and (max-width: 750px)
+{
+
+img
+{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+/*Header*/
+
+.logo{
+     margin:15px 0 0 30px;
+	 text-align:left;
+	 margin-left:20px;
+	 }
+
+.logbg{
+     background:#FFFFFF;
+     border:1px solid #9f9f9f;
+	 border-radius:6px;
+	 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 width:500px;
+	 overflow:auto;
+	 margin:0 auto;
+	 margin-top:80px;
+	 margin-bottom:100px;
+	 }	 
+.logleft{
+    float:left;
+	width:150px;
+	margin-top:60px;
+	margin-left:20px;
+	}
+.logright{
+    float:left;
+	width:320px;
+	height:auto;
+	margin-top:40px;
+	}
+	
+.tfcon
+{
+	width:290px;
+	background-position:top;
+	height:22px;
+	border:1px solid #cecfcf;
+	border-radius:5px;
+	padding-top:2px;
+	background-image:url(../images/inputbg.png);
+}
+
+.logintxtbox
+{
+	border:none;
+	background:none;
+	background-color:transparent;
+	outline:none;
+	width:98%;
+}
+.idtext{
+    font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#000;
+	text-align:left;
+	font-weight:bold;
+     	}		
+	
+.pswtext{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	float:left;
+	width:150px;
+	height:30px;
+	margin-top:15px;
+	}	
+.subbtn{
+    float:right;
+	width:100px;
+	height:30px;
+	margin-top:15px;
+	margin-right:25px;
+	}
+.subcon{ 
+   width:300px;
+   }
+
+.footext{
+    float:left; 
+	font-family:'Tahoma'; 
+	font-size:10px; 
+	color:#FFFFFF;
+	margin-top:4px 0 0 6px;
+	padding:0;
+	}		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+}

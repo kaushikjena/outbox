@@ -1,0 +1,77 @@
+.progressBar {
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    display:inline-block;
+    margin:0px 10px 5px 0px;
+    vertical-align:top;
+	float:left;
+}
+ 
+.progressBar div {
+    height: 12px;
+    color: #fff;
+    text-align:center;
+    line-height: 12px; 
+    width: 0;
+	font-size:10px;
+    background-color: #063457; 
+	border-radius: 5px;
+	float:left;
+/*	
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.18, #0502A1),
+	color-stop(0.61, #004DFF)
+	);
+	background-image: -o-linear-gradient(bottom, #0502A1 18%, #004DFF 61%);
+	background-image: -moz-linear-gradient(bottom, #0502A1 18%, #004DFF 61%);
+	background-image: -webkit-linear-gradient(bottom, #0502A1 18%, #004DFF 61%);
+	background-image: -ms-linear-gradient(bottom, #0502A1 18%, #004DFF 61%);
+	background-image: linear-gradient(to bottom, #0502A1 18%, #004DFF 61%);
+*/
+}
+
+
+.statusbar
+{
+	display:block;
+    height:auto;
+	width:90%;
+	margin:auto auto auto 10px;
+    vertical-align:top;
+	background-color:EBEFF0;
+	overflow:hidden;
+}
+
+.filename
+{
+	display:inline-block;
+	vertical-align:top;
+	width:auto;
+	font-size:10px;
+}
+
+.filesize
+{
+	display:none;
+	vertical-align:top;
+	color:#30693D;
+	width:10%;
+	font-size:6px;
+	margin-left:10px;
+	margin-right:5px;
+	float:left;
+}
+.abort{
+    color:#D90005;
+    font-family:"Arial Black", Gadget, sans-serif;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size:12px;font-weight:bolder;
+    cursor:pointer;
+    vertical-align:top;
+	float:right;
+}

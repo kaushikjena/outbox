@@ -1,0 +1,25 @@
+//correct
+SELECT w.wo_no FROM clients c,work_order w LEFT JOIN work_order_bill wb ON w.wo_no=wb.wo_no WHERE w.created_by='6' AND c.id=w.created_by AND w.approve_status='1' AND w.work_status='Invoiced' AND w.created_by<>0 AND (wb.payment_status <>'Completed' or wb.payment_status is NULL)
+
+//wrong
+select temp.*,wb.payment_status from (SELECT w.wo_no FROM clients c,work_order w WHERE w.created_by='3' AND c.id=w.created_by AND w.approve_status='1' AND w.work_status='Invoiced' AND w.created_by<>0) as temp LEFT JOIN work_order_bill wb ON temp.wo_no=wb.wo_no  AND (wb.payment_status <>'Completed' or wb.payment_status is NULL)
+
+//correct
+SELECT w.wo_no,wb.payment_status FROM clients c LEFT JOIN work_order w ON c.id=w.created_by LEFT JOIN work_order_bill wb ON w.wo_no=wb.wo_no WHERE w.created_by='6' AND w.approve_status='1' AND w.work_status='Invoiced' AND w.created_by<>0 AND (wb.payment_status <>'Completed' or wb.payment_status is NULL)
+
+//join for both work order bill and work order tech bill
+SELECT c.name,s.service_name,at.start_date,t.id as techid,w.purchase_order_no, w.service_id, w.wo_no, w.client_id, w.created_by, w.id ,wb.payment_status,wt.payment_status as techstatus FROM clients c,service s,technicians t,assign_tech at,work_order w LEFT JOIN work_order_bill wb ON w.wo_no=wb.wo_no LEFT JOIN work_order_tech_bill wt ON w.wo_no=wt.wo_no WHERE c.id=w.client_id AND w.service_id=s.id AND w.approve_status='1' AND w.work_status='Invoiced' AND at.wo_no=w.wo_no AND at.tech_id=t.id AND ((wb.payment_status <>'Completed' OR wb.payment_status is NULL) OR (wt.payment_status <>'Completed' OR wt.payment_status is NULL)) order by w.id DESC
+
+//UPDATE `clients` SET `name`=TRIM(`name`);
+
+SELECT s.service_name, e.equipment_name, wt.worktype, c.name, sp.client_price, sp.id, sp.service_id, sp.equipment, sp.client_id FROM clients c,equipment e,work_type wt,service s,service_price_client sp WHERE c.id=sp.client_id AND e.id=sp.equipment AND wt.id=sp.work_type AND s.id=sp.service_id AND sp.client_id='6' AND sp.equipment='1' order by sp.id ASC 
+
+select temp.*,so.outbox_price from (SELECT s.service_name, e.equipment_name, wt.worktype, c.name, sp.client_price, sp.id, sp.service_id, sp.equipment,sp.work_type, sp.client_id FROM clients c,equipment e,work_type wt,service s,service_price_client sp WHERE c.id=sp.client_id AND e.id=sp.equipment AND wt.id=sp.work_type AND s.id=sp.service_id AND sp.client_id='4' AND sp.equipment='1' order by sp.id ASC)as temp LEFT JOIN service_price_outbox so ON temp.service_id=so.service_id AND temp.equipment=so.equipment AND temp.work_type=so.work_type
+
+//edit query
+select * from (SELECT wt.id AS wid, wt.worktype, sp.id,sp.client_price,sp.service_id,sp.equipment,sp.work_type FROM work_type wt LEFT JOIN service_price_client sp ON wt.id=sp.work_type AND sp.equipment='1' AND sp.service_id='1' AND client_id='6' ORDER BY wt.id ASC) as temp LEFT JOIN service_price_outbox so ON temp.service_id=so.service_id AND temp.equipment=so.equipment AND temp.work_type=so.work_type
+
+//alter table query
+ALTER TABLE  `workorder_service` ADD  `test_price` FLOAT( 11, 2 ) NOT NULL
+
+ALTER TABLE  `workorder_service` CHANGE  `test_price`  `test_price` FLOAT( 11, 2 ) NOT NULL

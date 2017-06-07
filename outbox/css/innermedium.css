@@ -1,0 +1,592 @@
+
+@media screen and (max-width:940px){
+img
+{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	border:none;
+	outline:none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section ,content{ 
+    display: block;
+	margin:0px;
+	padding:0px;
+}
+a
+{
+	border:none;
+	outline:none;
+}
+
+.spacer
+{
+	height:5px;
+	clear:both;
+}
+
+/*General Setting*/
+
+body
+{
+	background: #e6f9d5 url(../images/body-bg.png) repeat-x;
+	margin:0px;
+	padding:0px;
+}
+
+#maindiv
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+.header
+{
+	height:104px;
+	width:100%;
+}
+
+.logo
+{
+    height:100px;
+	width:181px;
+	position:absolute;
+	top:10px;
+	left:20px;
+	float:left;
+}
+
+.reslogo
+{
+	display:none;
+}
+.searchdiv
+{
+	width:350px;
+	float:right;
+	background-color:#FFF;
+	-moz-box-shadow:    inset 0 0 10px #CCC;
+    -webkit-box-shadow: inset 0 0 10px #CCC;
+     box-shadow:        inset 0 0 10px #CCC;
+	padding:3px 0px 3px 3px;
+	margin:8px 15px 0px 0px;
+	border:1px solid #CCC;
+	border-radius:6px;
+}
+.seardivtxtbox
+{
+	width:320px;
+	float:left;
+}
+.searchtextbox
+{
+	width:99%;
+	padding:3px;
+	border:none;
+	background:none;
+	outline:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+}
+.searchbtn
+{
+	width:22px;
+	height:22px;
+	float:left;
+}
+.logininfo
+{
+	width:600px;
+	float:right;
+	margin:15px 5px 0px 0px;
+}
+
+
+.welcome
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:right;
+	color:#FFF;
+	width:500px;
+	float:left;
+	margin-right:10px;
+	padding-top:8px;
+	
+}
+
+.welcome span
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:right;
+	color:#0C0;
+}
+
+.logoutdiv{
+	float:left;
+	width:80px;
+	text-align:right;
+}
+
+/*Nav*/
+#navmenu{ height:38px; display:block; padding:0; margin: 0 auto;  border:1px solid; z-index:-99;} 
+#navmenu > ul {list-style:inside none; padding:0; margin:0;} 
+#navmenu > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+#navmenu > ul > li > a{ outline:none; display:block; position:relative; padding:12px 20px 12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none;  } 
+#navmenu > ul > li:first-child > a{border-radius:5px 0 0 5px;} 
+#navmenu > ul > li > a:after{position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px; z-index:-99; } 
+#navmenu ul li.has-sub:hover > a:after{top:0; bottom:0;} 
+#navmenu > ul > li.has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } 
+#navmenu > ul > li.has-sub:hover > a:before{top:19px;} 
+#navmenu ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px; z-index:99; } 
+#navmenu ul li.has-sub:hover > ul, #navmenu ul li.has-sub:hover > div{display:block; padding:0px; margin:0px;} 
+#navmenu ul li.has-sub > a:hover{background:#3f3f3f; border-color:#3f3f3f;} 
+#navmenu ul li > ul, #navmenu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px; z-index:999; } 
+#navmenu ul li > ul{width:200px;} 
+#navmenu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+#navmenu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+
+#navmenu, #navmenu > ul > li > ul > li a:hover{ background:#ff9812; background:-moz-linear-gradient(top, #ff9812 0%, #e17310 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9812), color-stop(100%,#e17310)); background:-webkit-linear-gradient(top, #ff9812 0%,#e17310 100%); background:-o-linear-gradient(top, #ff9812 0%,#e17310 100%); background:-ms-linear-gradient(top, #ff9812 0%,#e17310 100%); background:linear-gradient(top, #ff9812 0%,#e17310 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9812', endColorstr='#e17310',GradientType=0); } 
+#navmenu{border-color:#b05a0d;} 
+#navmenu > ul > li > a{border-right:1px solid #b05a0d; color:#fff;} 
+#navmenu > ul > li > a:after{border-color:#ffa32b;} 
+#navmenu > ul > li > a:hover{background:#e17310;} 
+
+
+#resnav
+{
+	display:none;
+}
+#contentdiv
+{
+	margin:10px;
+	clear:both;
+}
+
+.leftcolum
+{
+	background:#FFFFFF;
+	border:1px solid #9f9f9f;
+	border-radius:6px;
+	box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	width:20%;
+	min-height:500px;
+	overflow:auto;
+	float:left;
+	
+}
+
+
+.leftcoluminner
+{
+	width:93%;
+	margin:0 auto;
+}
+
+.rightcolum
+{
+	 background:#FFFFFF;
+     border:1px solid #9f9f9f;
+	 border-radius:6px;
+	 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 width:78%;
+	 min-height:500px;
+	overflow:auto;
+	 float:left;
+	 margin-left:1%;
+}
+.rightcoluminner
+{
+	width:98%;
+	margin:0 auto;
+}
+.headerbg
+{
+	background-image:url(../images/headerbg.png);
+	background-repeat:repeat-x;
+	height:30px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	text-shadow:1px 1px 0 rgba(0,0,0, 0.5);
+	text-transform:uppercase;
+	padding-left:10px;
+	padding-top:8px;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+/*Footer*/
+.footbg{
+    background-image:url(../images/footerbg.png);
+	background-repeat:repeat-x;
+	height:40px;
+	}	
+	
+.footext{
+    float:left; 
+	font-family:'Tahoma'; 
+	font-size:12px; 
+	color:#FFFFFF;
+	margin-top:8px;
+	margin-left:8px;
+	}	
+	
+.fooimg{
+   float:right; 
+   padding:5px; 
+}
+/**************new css*********************/  
+	.innertable{
+		width:450px; margin:0 auto; margin-top:30px;
+	}
+	.formtextadd{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		font-weight:normal;
+		float:left; 
+		width:120px;
+		line-height:25px;
+		font-weight:bold;
+	}
+	.textboxc{
+		float:left; width:300px;
+		margin-left:0px;
+	}
+	.textbox{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #cecfcf;
+		border-radius:5px;
+		padding-top:2px;
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-left:5px;
+	}
+	.textarea
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		width:96%;
+		height:50px;
+		border-radius:5px;
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		border:1px solid #cecfcf;
+		resize:none;
+		padding-left:5px;
+	}
+	.textboxview{
+		float:right; width:300px;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		font-weight:normal;
+		line-height:25px;
+	}
+	.viewimage{
+		float:right; 
+		border:solid 1px #999;
+		width:100px; 
+		margin-top:30px; 
+		margin-right:80px; 
+		margin-left:80px;
+	}
+	.innerDivTech{
+		width:430px; 
+		margin:0 auto;
+		margin-top:30px;
+		margin-left:30px;
+		float:left;
+	}
+	.TechImgDiv
+	{
+		width:300px;
+		float:right;
+		height:auto;
+		margin-top:10px;
+	}
+	
+	.TechImgDivCon
+	{
+		width:90px;
+		height:120px;
+		float:left;
+		margin-left:10px;
+	}
+	
+	.TechImgDivCon img
+	{
+		width:90px;
+		height:120px;
+	}
+	/***********job css*****************/
+	.formtextaddjob{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100px;
+		line-height:25px;
+		
+	}
+	.formtextaddjoblong{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:120px;
+		line-height:25px;
+		margin-left:20px;
+		
+	}
+	.formtextaddjoblarge{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:120px;
+		line-height:25px;
+	}
+	.textboxcjob{
+		float:left; width:150px;
+		margin-left:0px;
+	}
+	.textboxjob{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #999;
+		border-radius:5px;
+		padding-top:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		color:#666;
+		padding-left:5px;
+	}
+	.textareajob
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		color:#666;
+		width:96%;
+		height:50px;
+		border-radius:5px;
+		border:1px solid #999;
+		resize:none;
+		padding-left:5px;
+	}
+	.divAddress{
+		width:99%;
+		border:1px solid #808080;
+		float:none;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		color:#666;
+		padding-left:2px;
+		line-height:20px;
+	}
+	.divPurchase{
+		width:99%;
+		border:1px solid #808080;
+		float:right;
+		margin-right:0px;
+		padding-left:5px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.divPickup{
+		width:99%;
+		border:1px solid #808080;
+		float:left;
+		margin-left:0px; 
+		padding-left:5px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.divService{
+		width:99%;
+		border:1px solid #808080;
+		float:right; 
+		margin-right:0px; 
+		padding-left:5px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+	}
+	.divNotes{
+		border:1px solid #808080;
+		width:99%;
+		margin-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+	}
+	.repairDiv{
+		border:1px solid #808080;
+		float:left; 
+		margin-left:0px; 
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		background-color:#999;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset; 
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	}
+	.techDiv{
+		border:1px solid #808080;
+		float:right; 
+		margin-right:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		background-color:#999;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset; 
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	}
+	
+	.textboxcwo{
+		float:left; width:200px;
+		margin-left:0px;
+		margin-right:5px;
+	}
+	
+	/***********job css*****************/
+	/***********search css*****************/
+	.formtextaddsrch{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:none; 
+		width:100px;
+		line-height:25px;
+		
+	}
+	.formtextaddsrchsmall{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:none; 
+		width:50px;
+		line-height:25px;
+		
+	}
+	.textboxcsrch{
+		float:none; width:135px;
+		margin-left:0px;
+	}
+	.textboxcsrchsmall{
+		float:none; width:80px;
+		margin-left:0px;
+	}
+	.textboxsrch{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #cecfcf;
+		border-radius:5px;
+		padding-top:0px;
+		/*background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;*/
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-left:5px;
+	}
+	/***********searchcss*****************/
+	/**********Assign tech css***************/
+	.technicianjobboard
+	{
+		 background:#FFFFFF;
+		 border:1px solid #9f9f9f;
+		 border-radius:6px;
+		 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 width:500px;
+		 overflow:auto;
+	}
+	.textboxctech{
+		float:left; width:250px;
+		margin-left:0px;
+	}
+		.formtextaddtech{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:120px;
+		line-height:25px;
+		margin-left:20px;
+		
+	}
+	/**********Assign tech css***************/	
+	/**************dashboard css**************/
+	.divdashleft{
+		width:100%;
+		height:320px;
+		float:left;
+	}
+	.divdashcent{
+		width:100%;
+		height:320px;
+		float:left;
+		margin:0px 0 0px 0;
+	}
+	/**************dashboard css**************/
+	/**************billing css**************/
+	.innerBilling{
+		width:100%; 
+		margin:0 auto; 
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.textboxcBill{
+		float:left; width:250px;
+		margin-left:20px;
+	}
+	/**************billing css**************/
+	/**************service price css**************/
+	.innerService{
+		width:100%; 
+		margin:0 auto; 
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	/**************service price css**************/
+	.divMap{
+		width:100%;
+		float:none; 
+		border:solid 1px #999;
+	}
+	.divCalendar{
+		float:none;
+		width:100%;
+		border:solid 1px #999; 
+		padding:5px;
+	}
+	
+}

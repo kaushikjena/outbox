@@ -1,0 +1,966 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>XML attributes for thermometer gauge</title>
+<link rel="stylesheet" href="Thm_XML_files/widget_style.css" type="text/css">
+</head>
+
+<body>
+<h1>FusionCharts for Flex &gt; FusionWidgets and XML &gt; Widget XML API &gt; Gauges &gt;  Thermometer Gauge </h1>
+<h2>Thermometer Gauge  Specification Sheet</h2>
+<p>
+<b>SWF: </b>Thermometer.swf</p>
+<table align="center" cellpadding="2" width="98%">
+  <tbody><tr>
+    <td align="center"><strong> Thermometer Gauge</strong></td>
+  </tr>
+  <tr>
+    <td align="center" height="157"><img src="Thm_XML_files/Thm_XML_Thm_Create1.jpg" alt="Thermometer" height="305" width="105"></td>
+  </tr>
+</tbody></table>
+<table align="center" cellpadding="2" width="98%">
+  <tbody><tr>
+    <td align="left"><span class="text"><strong>&nbsp;Sample XML for Thermometer Gauge</strong></span></td>
+  </tr>
+</tbody></table>
+<p class="codeBlock">&lt;chart palette='4' lowerLimit='-50' upperLimit='10' numberSuffix='° C'&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;value&gt;-40&lt;/value&gt; <br>
+&lt;/chart&gt; </p>
+<table align="center" border="0" cellpadding="3" cellspacing="0" width="98%">
+  <tbody><tr> 
+    <td class="text" valign="top"><p class="header">Chart Objects </p>    </td>
+  </tr>
+  <tr>
+    <td class="text" valign="top"><table class="tableYellowBorder" cellpadding="4" cellspacing="0" width="99%">
+      <tbody><tr class="blueHeader">
+        <td class="header" valign="top" width="15%">Object Name </td>
+        <td class="header" valign="top" width="50%">Description</td>
+        <td class="header" valign="top" width="20%">STYLES supported </td>
+        <td class="header" valign="top" width="15%">Animation Parameters </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top" width="15%">BACKGROUND</td>
+        <td class="text" valign="top" width="50%">Background refers to the background for entire chart. </td>
+        <td class="text" valign="top" width="20%"><ul>
+            <li>Animation</li>
+            
+          <li>Shadow</li>
+            
+          <li>Glow</li>
+            
+          <li>Bevel</li>
+            
+          <li>Blur</li>
+        </ul></td>
+        <td class="text" valign="top" width="15%"><ul>
+            <li>_alpha</li>
+            
+          <li>_x</li>
+            
+          <li>_y</li>
+            
+          <li>_xScale</li>
+            
+          <li>_yScale</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">GAUGE</td>
+        <td class="text" valign="top">Refers to the thermometer base. </td>
+        <td class="text" valign="top"><ul>
+          <li>Animation</li>
+          
+          <li>Shadow</li>
+          
+          <li>Glow</li>
+          
+          <li>Bevel</li>
+          
+          <li>Blur</li>
+        </ul>        </td>
+        <td class="text" valign="top"><ul>
+          <li>_alpha</li>
+          
+          </ul>        </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">VALUE</td>
+        <td class="text" valign="top">Value textfield for the chart (if visible). </td>
+        <td class="text" valign="top"><ul>
+          <li>Animation</li>
+          
+          <li>Font</li>
+          <li>Shadow</li>
+          
+          <li>Glow</li>
+          
+          <li>Bevel</li>
+          
+          <li>Blur</li>
+        </ul>        </td>
+        <td class="text" valign="top"><ul>
+          <li>_alpha</li>
+          
+          <li>_x</li>
+          
+          <li>_y</li>
+        </ul>        </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">TICKMARKS</td>
+        <td class="text" valign="top">Tick marks on the  scale. </td>
+        <td class="text" valign="top"><ul>
+          <li>Animation</li>
+          <li>Shadow</li>
+          
+
+
+          <li>Glow</li>
+          
+          <li>Bevel</li>
+          
+          <li>Blur</li>
+        </ul>        </td>
+        <td class="text" valign="top"><ul>
+          <li>_alpha</li>
+          
+          <li>_x</li>
+          
+          <li>_y</li>
+        </ul>        </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">TICKVALUES</td>
+        <td class="text" valign="top">Value for tick marks. </td>
+        <td class="text" valign="top"><ul>
+          <li>Animation</li>
+          
+          <li>Font</li>
+          <li>Shadow</li>
+              
+          <li>Glow</li>
+          
+          <li>Bevel</li>
+          
+          <li>Blur</li>
+        </ul>        </td>
+        <td class="text" valign="top"><ul>
+          <li>_alpha</li>
+          
+          <li>_x</li>
+          
+          <li>_y</li>
+        </ul>        </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">LIMITVALUES</td>
+        <td class="text" valign="top">Textfield representing chart lower and upper limit. </td>
+        <td class="text" valign="top"><ul>
+          <li>Animation</li>
+          
+          <li>Font</li>
+          <li>Shadow</li>
+          
+          <li>Glow</li>
+          
+          <li>Bevel</li>
+          
+          <li>Blur</li>
+        </ul>        </td>
+        <td class="text" valign="top"><ul>
+          <li>_alpha</li>
+          
+          <li>_x</li>
+          
+          <li>_y</li>
+        </ul>        </td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+<br>
+<table align="center" border="0" cellpadding="3" cellspacing="0" width="98%">
+  <tbody><tr>
+    <td class="text" valign="top"><span class="header">&lt;chart&gt; element Attributes</span></td>
+  </tr>
+  <tr>
+    <td class="text" valign="top"><table class="tableYellowBorder" cellpadding="4" cellspacing="0" width="99%">
+      <tbody><tr>
+        <td class="header" width="25%">Attribute Name </td>
+        <td class="header" width="20%">Type / Range </td>
+        <td class="header">Description</td>
+      </tr>
+
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Functional Attributes </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">animation</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">This attribute lets you set the 
+configuration whether the chart   should appear in an animated fashion. 
+If you do not want to animate any part of   the chart, set this as 0. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">defaultAnimation</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">By default, each chart animates 
+some of its elements. If you   wish to switch off the default animation 
+patterns, you can set this attribute to   0. It can be particularly 
+useful when you want to define your own animation   patterns using STYLE
+ feature. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">clickURL</td>
+        <td class="text" valign="top">URL in FusionCharts format </td>
+        <td class="text" valign="top">The entire chart can now act as a 
+hotspot. Use this URL to   define the hotspot link for the chart. The 
+link can be specified in FusionCharts   Link Format. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">palette</td>
+        <td class="text" valign="top">Number (1-5) </td>
+        <td class="text" valign="top">Each   chart has 5 pre-defined 
+color palettes which you can choose from. Each palette   renders the 
+chart in a different color theme. Valid values are 1-5. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">paletteThemeColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">If you want your own palette 
+derived from a particular hex color, you an specify the same here. All 
+other colors on the chart would automatically derive from that palette. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">annRenderDelay</td>
+        <td class="text" valign="top">Number (seconds) </td>
+        <td class="text" valign="top">If you've defined any annotation 
+groups over chart, using this attribute you can set the duration after 
+which they'll render on the chart. The timer starts from the time the 
+chart has initialized. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">autoScale</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">If you've defined the chart 
+parameters (like gauge origin, co-ordinates etc.) using a different 
+chart size and now want to scale the chart to a different size, you need
+ to specify the original width and height and then set this attribute to
+ 1. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">origW</td>
+        <td class="text" valign="top">Number (Pixels) </td>
+        <td class="text" valign="top">If you've opted to auto-scale the 
+chart, you need to convey the original width of chart using this 
+attribute. During auto-scaling, this attribute is mandatory to specify. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">origH</td>
+        <td class="text" valign="top">Number (Pixels) </td>
+        <td class="text" valign="top">If you've opted to auto-scale the 
+chart, you need to convey the original height of chart using this 
+attribute. During auto-scaling, this attribute is mandatory to specify.</td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showValue</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to show chart's value? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showShadow</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show shadow for the chart? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">use3DLighting</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to use gradiented fill for the thermometer? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showPrintMenuItem</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to show "<em>Print Chart</em>" item in the context menu of the chart? Even if you opt to hide the item in context menu, you can still opt to invoke <span class="codeInline">print()</span> JavaScript method of the chart to print the same. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showAboutMenuItem</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Setting this to 1 shows up a 
+custom context menu in the chart, which can be customized to show your 
+text and can be linked to your URL. For e.g., you can set the context 
+menu of the chart to include "About your company name" and then link to 
+your company home page. By default, the chart shows "About FusionCharts"
+ when right clicked. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">aboutMenuItemLabel</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">The menu item label for the custom context menu item. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">aboutMenuItemLink</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">Link for the custom context menu 
+item. You can specify the link in FusionCharts link format to be able to
+ open the same in new window, pop-ups, frames or as JavaScript links. </td>
+      </tr>
+      
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Axis properties </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">setAdaptiveMin</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">This attribute lets you set 
+whether the lower limit would be 0 (in case   of all positive values on 
+chart) or should the lower limit adapt itself   to a different figure 
+based on values provided to the chart. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">upperLimit</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">This attribute helps you 
+explicitly set the lower limit of the chart. If you   don't specify this
+ value, it is automatically calculated by FusionCharts based   on the 
+data provided by you. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">lowerLimit</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">This attribute helps you 
+explicitly set the upper limit of the chart. If you   don't specify this
+ value, it is automatically calculated by FusionCharts based   on the 
+data provided by you. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">upperLimitDisplay</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top"> <p>This attribute allows you to display a label instead of the lower limit. For   example, in a chart displaying <em>Literacy Rate</em> on a scale of <em>0-100%</em>,   you may need to show the label <em>Low</em> at the starting point of the chart.   Upon using this attribute to specify the label, the value 0 would be replaced by <em>Low.</em></p>
+          <p>Default value: If you do not specify the lowerLimitDisplay attribute, the lower limit value would   be shown.<br>
+          </p></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">lowerLimitDisplay</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top"><p>This attribute allows you to 
+display a label instead of the upper limit. Upon   using this attribute,
+ the upper limit of the chart gets replaced by the label   specified.</p>
+          <p>            Default value: If you do not specify the 
+upperLimitDisplay attribute, the upper limit value would   be shown.    
+        </p></td>
+      </tr>
+      
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Real-time properties </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">dataStreamURL</td>
+        <td class="text" valign="top">URL</td>
+        <td class="text" valign="top">This parameter sets the path of 
+the page which is supposed to relay real-time   data to the chart. If 
+you've special characters as a part of your data stream   URL, like ? or
+ &amp;, you'll need to URL Encode the entire <span class="codeInline">dataStreamURL</span><br>
+            <br>
+          This page needs to be on the same   sub-domain on which the 
+chart is hosted and invoked from. Otherwise, the Flash   sandbox 
+security would restrict it from accessing the data and hence the   
+real-time feature won't work.<br>
+          Example: <span class="codeInline">dataStreamURL='liveQuote.aspx?name=xyz' </span></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">refreshInterval</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">For this parameter, you can 
+specify the number of seconds after which the chart   will look for new 
+data. This process will happen continuously - i.e., if you   specify 5 
+seconds here, the chart will look for new data every 5 seconds. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">dataStamp</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">Constantly changing data stamp 
+that can be added to real time data URL, so as to maintain a state. 
+Please see the section "Real time capabilities &gt; Adding data-stamp" </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showRTMenuItem</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to show the real-time update related menu items (like Start/Stop Update) in chart's context menu? </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Thermometer Properties </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">thmBulbRadius</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">If you want to explicitly specify a
+ radius for thermometer bulb, you can use this attribute. Else, 
+FusionWidgets automatically calculates the best possible value. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">thmHeight</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Lets you manually set the height for thermometer. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">gaugeFillColor</td>
+        <td class="text" valign="top">Color Code </td>
+        <td class="text" valign="top">Fill color for thermometer. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">gaugeFillAlpha</td>
+        <td class="text" valign="top">Number (0-100) </td>
+        <td class="text" valign="top">Fill alpha for thermometer. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showGaugeBorder</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show a border around thermometer? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">gaugeBorderColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">Color of thermometer border. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">gaugeBorderThickness</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Thickness of thermometer border. </td>
+      </tr>
+      <tr>
+
+
+        <td class="text" valign="top">gaugeBorderAlpha</td>
+        <td class="text" valign="top">Number (0-100)</td>
+        <td class="text" valign="top">Alpha of thermometer border. </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Tick Marks &amp; Values </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">showTickMarks</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show tick marks? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showTickValues</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show tick values? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showLimits</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show the first and last tick value (i.e., chart lower and upper limit)? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">adjustTM</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to adjust major tick mark number so as to best distribute the specified chart scale. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">ticksOnRight</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to show ticks on the left or right side of gauge?</td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">majorTMNumber</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">Number of major tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">majorTMColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">Major tick marks color. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">majorTMAlpha</td>
+        <td class="text" valign="top">Number (0-100)</td>
+        <td class="text" valign="top">Major tick marks alpha. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">majorTMHeight</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Width of major tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">majorTMThickness</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Thickness of major tick mark line. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">minorTMNumber</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">Number of minor tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">minorTMColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">Color of minor tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">minorTMAlpha</td>
+        <td class="text" valign="top">Number (0-100)</td>
+        <td class="text" valign="top">Alpha of minor tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">minorTMHeight</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Width of minor tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">minorTMThickness</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Thickness of minor tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">tickMarkDistance</td>
+        <td class="text" valign="top">Number (Pixels) </td>
+        <td class="text" valign="top">Distance between the gauge scale and tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">tickValueDistance</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Distance between tick values and tick marks. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">tickValueStep</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">If you need to show every n-th tick value only, you can specify that value here. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">tickValueDecimals</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">Number of decimals to which tick values would be rounded to. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">forceTickValueDecimals</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to force number of decimals on tick values? </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="text" valign="top">&nbsp;</td>
+      </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Message Logger</td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">useMessageLog</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to use message logger for the chart? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageLogWPercent</td>
+        <td class="text" valign="top">Number (percent) </td>
+        <td class="text" valign="top">This attribute lets you set the 
+width percent of the message logger window w.r.t   entire chart width. 
+So, if you set it as 80, the message logger window will take   up 80% of
+ chart width. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageLogHPercent</td>
+        <td class="text" valign="top">Number (percent) </td>
+        <td class="text" valign="top">This attribute lets you set the height percent of the message logger window   w.r.t entire chart height. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageLogShowTitle</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show the title for message logger? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageLogTitle</td>
+        <td class="text" valign="top">String </td>
+        <td class="text" valign="top">If you've opted to show the title 
+for message logger, you can define your custom   title here. Examples 
+are "Error log", "Server History" etc. The title displays   at the top 
+left corner of chart. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageLogColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">You can customize the color of the entire message log window by setting a hex   value for this attribute. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageGoesToLog </td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">The messages streamed to the chart
+ can either be displayed in the message log   window or can be passed to
+ JavaScript (which we'll see next). This attribute   lets you control 
+whether the messages should be logged in the in-built log   window. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageGoesToJS </td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">This attribute lets you configure 
+whether each message streamed from the server   should be passed to a 
+local JavaScript function. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messageJSHandler</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">If you've opted to pass each 
+message to JavaScript function, this attribute lets   you define the 
+name of the function. This helps you create your custom functions   to 
+react to messages streamed from server. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">messagePassAllToJS </td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether all parameters passed as part of message envelope be passed to the   custom JavaScript function. </td>
+      </tr>
+      
+      
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Number Formatting Properties </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">formatNumber</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">This configuration determines 
+whether the numbers displayed on   the chart will be formatted using 
+commas, e.g., 40,000 if formatNumber='1' and   40000 if formatNumber='0 '
+ </td>
+      </tr>
+
+      <tr>
+        <td class="text" valign="top">numberPrefix</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">Using this attribute, you could 
+add prefix to all the numbers   visible on the graph. For example, to 
+represent all dollars figure on the chart,   you could specify this 
+attribute to ' $' to show like $40000, $50000. For more   details, 
+please see Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">numberSuffix</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">Using this attribute, you could 
+add suffix to all the numbers   visible on the graph. For example, to 
+represent all figure quantified as per   annum on the chart, you could 
+specify this attribute to ' /a' to show like   40000/a, 50000/a. For 
+more details, please see Advanced Number Formatting   section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">decimals</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">Number of decimal places to which all numbers on the chart   would be rounded to. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">forceDecimals</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to add 0 padding at the 
+end of decimal numbers? For   example, if you set decimals as 2 and a 
+number is 23.4. If forceDecimals is set   to 1, FusionCharts will 
+convert the number to 23.40 (note the extra 0 at the   end) </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">formatNumberScale</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Configuration whether to add K 
+(thousands) and M (millions) to   a number after truncating and rounding
+ it - e.g., if formatNumberScale is set to   1, 1043 would become 1.04K 
+(with decimals set to 2 places). Same with numbers in   millions - a M 
+will added at the end. For more details, please see Advanced   Number 
+Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">defaultNumberScale</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">The default unit of the numbers 
+that you're providing to the   chart. For more details, please see 
+Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">numberScaleUnit</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">Unit of each block of the scale. For more details, please see   Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">numberScaleValue</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">Range of the various blocks that constitute the scale. For more   details, please see Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">scaleRecursively</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to scale the number recursively? For more   details, please see Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">maxScaleRecursion</td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">How many recursions to complete during recursive scaling? -1 completes the entire set of recursion. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">scaleSeparator</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">What character to use to separte the scales that generated after recursion? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">decimalSeparator</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">This option helps you specify the 
+character to be used as the   decimal separator in a number. For more 
+details, please see Advanced Number   Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">thousandSeparator</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">This option helps you specify the 
+character to be used as the   thousands separator in a number. For more 
+details, please see Advanced Number   Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">inDecimalSeparator</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">In some countries, commas are used
+ as decimal separators and   dots as thousand separators. In XML, if you
+ specify such values, it will give a   error while converting to number.
+ So, FusionCharts accepts the input decimal and   thousand separator 
+from user, so that it can covert it accordingly into the   required 
+format. This attribute lets you input the decimal separator. For more   
+details, please see Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">inThousandSeparator</td>
+        <td class="text" valign="top">String</td>
+        <td class="text" valign="top">In some countries, commas are used
+ as decimal separators and   dots as thousand separators. In XML, if you
+ specify such values, it will give a   error while converting to number.
+ So, FusionCharts accepts the input decimal and   thousand separator 
+from user, so that it can covert it accordingly into the   required 
+format. This attribute lets you input the thousand separator. For more  
+ details, please see Advanced Number Formatting section. </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Background Cosmetics </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">bgColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">This attribute sets the background
+ color for the chart. You can   set any hex color code as the value of 
+this attribute. To specify a gradient as   background color, separate 
+the hex color codes of each color in the gradient   using comma. 
+Example: FF5904,FFFFFF. Remember to remove # and any spaces in   
+between. See the gradient specification page for more details. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">bgAlpha</td>
+        <td class="text" valign="top">Number (0-100)</td>
+        <td class="text" valign="top">Sets the alpha (transparency) for 
+the background. If you've   opted for gradient background, you need to 
+set a list of alpha(s) separated by   comma. See the gradient 
+specification page for more details. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">bgRatio</td>
+        <td class="text" valign="top">Numbers separated by comma </td>
+        <td class="text" valign="top">If you've opted for a gradient 
+background, this attribute lets   you set the ratio of each color 
+constituent. See the gradient specification page   for more details. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">bgAngle</td>
+        <td class="text" valign="top">Number (0-360) </td>
+        <td class="text" valign="top">Angle of the background color, in case of a gradient. See the   gradient specification page for more details. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showBorder</td>
+        <td class="text" valign="top">Boolean (0/1)</td>
+        <td class="text" valign="top">Whether to show a border around the chart or not? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">borderColor</td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">Border color of the chart. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">borderThickness</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Border thickness of the chart. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">borderAlpha</td>
+        <td class="text" valign="top">Number (0-100)</td>
+        <td class="text" valign="top">Border alpha of the chart. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">bgSWF</td>
+        <td class="text" valign="top">URL of SWF </td>
+        <td class="text" valign="top">To place any Flash movie as 
+background of the chart, enter the   (path and) name of the background 
+SWF. It should be in the same domain as the   chart. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">bgSWFAlpha</td>
+        <td class="text" valign="top">Number (0-100)</td>
+        <td class="text" valign="top">Helps you specify alpha for the loaded background SWF. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top"> logoURL </td>
+        <td class="tableGreyBorder" valign="top"><span class="text"> String </span> </td>
+        <td class="tableGreyBorder" valign="top"><span class="text">You 
+can load an external logo (JPEG/PNG/SWF) on the chart once it has 
+rendered. This attribute lets you specify the URL of the same. Owing to 
+Flash Player security settings, you can only specify logo that are on 
+the sub-domain as the SWF file of the chart. </span></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top"> logoPosition </td>
+        <td valign="top"><span class="text"> String ( TL, TR, BL, BR, CC )</span> </td>
+        <td valign="top"><p class="text"> <span class="text">Where to position the logo on the chart:</span></p>
+            <ul>
+              <li class="text">TL - Top-left</li>
+              <li class="text">TR - Top-right</li>
+              <li class="text">BR - Bottom right</li>
+              <li class="text">BL - Bottom left</li>
+              <li class="text"><span class="text">CC - Center of screen</span> </li>
+            </ul></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">logoAlpha </td>
+        <td class="text" valign="top"> Number  (0-100) </td>
+        <td class="tableGreyBorder" valign="top"><span class="text">Once the logo has loaded on the chart, you can configure its opacity using this atribute.</span></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top"> logoScale </td>
+        <td class="text" valign="top"><span class="text"> Number  (0-100)</span> </td>
+        <td valign="top"><span class="text">You can also change the scale of externally loaded logo at run-time by specifying a value for this parameter. </span></td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">logoLink </td>
+        <td class="tableGreyBorder" valign="top"><span class="text"> String </span> </td>
+        <td class="tableGreyBorder" valign="top"><span class="text">If 
+you want to link the logo to an external URL, specify the link in this 
+attribute. The link can be in FusionCharts link format, allowing you to 
+link to new windows, pop-ups, frames etc. </span> </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Font Properties </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">baseFont </td>
+        <td class="text" valign="top">Font Name </td>
+        <td class="text" valign="top">This attribute lets you set the 
+font face (family) of all the   text (data labels, values etc.) on 
+chart. If you specify outCnvBaseFont   attribute also, then this 
+attribute controls only the font face of text within   the chart canvas 
+bounds. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">baseFontSize </td>
+        <td class="text" valign="top">Number</td>
+        <td class="text" valign="top">This attribute sets the base font 
+size of the chart i.e., all   the values and the names in the chart 
+which lie on the canvas will be displayed   using the font size provided
+ here. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">baseFontColor </td>
+        <td class="text" valign="top">Color Code</td>
+        <td class="text" valign="top">This attribute sets the base font 
+color of the chart i.e., all   the values and the names in the chart 
+which lie on the canvas will be displayed   using the font color 
+provided here. </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+        </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header">Tool tip properties </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showToolTip</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to show tool tip for the annotations? </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">toolTipBgColor</td>
+        <td class="text" valign="top">Color Code </td>
+        <td class="text" valign="top">Background color for the tool tip </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">toolTipBorderColor</td>
+        <td class="text" valign="top">Color Code </td>
+        <td class="text" valign="top">Border Color for the tool tip. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">showToolTipShadow</td>
+        <td class="text" valign="top">Boolean (0/1) </td>
+        <td class="text" valign="top">Whether to show shadow for tool-tips on the chart.</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="codeInline" valign="top">&nbsp;</td>
+      </tr>
+      <tr class="greyTr">
+        <td colspan="3" class="header" valign="top">Chart Paddings &amp; Margins </td>
+        </tr>
+      <tr>
+        <td class="text" valign="top">chartLeftMargin</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Amount of empty space that you want to put on the left side of   your chart. Nothing is rendered in this space. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">chartRightMargin</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Amount of empty space that you want to put on the right side of   your chart. Nothing is rendered in this space. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">chartTopMargin</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Amount of empty space that you want to put on the top of your   chart. Nothing is rendered in this space. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">chartBottomMargin</td>
+        <td class="text" valign="top">Number (Pixels)</td>
+        <td class="text" valign="top">Amount of empty space that you want to put on the bottom of   your chart. Nothing is rendered in this space. </td>
+      </tr>
+      <tr>
+        <td class="text" valign="top">valuePadding</td>
+        <td class="text" valign="top">Number (Pixels) </td>
+        <td class="text" valign="top">Distance between the value and gauge. </td>
+      </tr>
+     
+
+
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+<br>
+<br>
+<table align="center" border="0" cellpadding="3" cellspacing="0" width="98%">
+  <tbody><tr>
+    <td class="text" valign="top"><p>The chart also accepts the following XML elements, which have not been discussed here: </p>
+      <ul>
+        <li><span class="codeInline">&lt;annotations&gt;</span> - Discussed in the section Annotations  </li>
+        <li><span class="codeInline">&lt;styles&gt;</span> - Discussed in the section STYLEs </li>
+        <li><span class="codeInline">&lt;alerts&gt;</span> - Discussed in the section Alert Manager </li>
+      </ul>
+    </td>
+  </tr>
+</tbody></table>
+<div class="footer"> « <a href="http://www.fusioncharts.com/flex/docs/charts/contents/ChartSS/Linear_XML.html">Real-time Horizontal Linear</a> |  » <a href="http://www.fusioncharts.com/flex/docs/charts/contents/ChartSS/LEDV_XML.html">Real-time Vertical LED</a></div>
+
+
+</body></html>

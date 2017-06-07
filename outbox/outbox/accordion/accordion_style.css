@@ -1,0 +1,82 @@
+.glossymenu2{
+	padding: 0;
+	/*width:220px;*/ /*width of menu*/
+	width:100%;
+	border-bottom-width: 0;
+ 	margin-top: 1px;
+	margin-left: 0px;
+		
+}
+
+.glossymenu2 a.menuitem2{
+background-color:#5390A3;
+/*background:url(../images/grey. )  no-repeat ;*/
+font: bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+color:#ffffff;
+cursor:pointer;
+line-height:24px;
+display: block;
+position: relative;/*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 2px 0;
+padding-left: 5px;
+text-decoration: none;
+background: #5390A3 url(../images/dotline.jpg) no-repeat bottom left;
+margin-bottom:1px;
+/*margin-bottom:1px;*/
+}
+/*.glossymenu2 a.menuitem2:visited, .glossymenu2 .menuitem2:active{
+color:#000000;
+}*/
+
+.glossymenu2 a.menuitem2 .statusicon{
+position:absolute;
+background-position:left; /*CSS for icon image that gets dynamically added to headers*/
+
+top: 5px;
+right: 5px;
+border: none;
+}
+.glossymenu2 a.menuitem2:hover{
+background:#79A9B9;
+
+}
+
+.glossymenu2 div.submenu2 { /*DIV that contains each sub menu*/
+background: #ffffff;
+/*border-left:solid 1px #7dabe0;
+border-right:solid 1px #7dabe0;*/
+}
+
+.glossymenu2 div.submenu2 ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu2 div.submenu2 ul li{
+/*border-bottom: 1px solid #7dabe0;*/
+line-height:25px;
+}
+
+.glossymenu2 div.submenu2 ul li a{
+display: block;
+font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 0px;
+padding-top:5px;
+padding-bottom:6px;
+
+background: #cfebfa url(../images/dotline2.jpg) no-repeat bottom left;
+/*background:#e7f0fd;*/
+padding-left:10px;
+}
+
+.glossymenu2 div.submenu2 ul li a:hover{
+/*background:#e2e2e2;*/
+colorz: white;
+background: #6ec7f5 url(../images/dotline2.jpg) no-repeat bottom left;
+}
+

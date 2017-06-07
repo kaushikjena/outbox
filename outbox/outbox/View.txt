@@ -1,0 +1,31 @@
+//view text for login users
+
+create view login_view As 
+SELECT id,email,password,user_type,status  FROM admin
+union all
+SELECT id,email,password,user_type,status  FROM users
+union all
+SELECT id,email,password,user_type,status  FROM technicians
+
+
+//changed view
+
+create view login_view As 
+SELECT id,email,password,user_type,status  FROM admin
+union all
+SELECT id,email,password,user_type,status  FROM users WHERE status=1
+union all
+SELECT id,email,password,user_type,status  FROM technicians WHERE status=1
+union all
+SELECT id,email,password,user_type,status FROM clients WHERE status=1
+
+//new query for username
+create view login_view As 
+SELECT id,CONCAT(TRIM(replace(replace(name,' ',''),'.','')),'A') AS username,email,password,user_type,status  FROM admin
+union all
+SELECT id,CONCAT(TRIM(replace(replace(name,' ',''),'.','')),'U') AS username,email,password,user_type,status  FROM users WHERE status=1
+union all
+SELECT id,CONCAT(TRIM(replace(first_name,'.','')),TRIM(replace(middle_name,'.','')),TRIM(replace(last_name,'.','')),'T') as username,email,password,user_type,status  FROM technicians WHERE status=1
+union all
+SELECT id,CONCAT(TRIM(replace(replace(name,' ',''),'.','')),'C') AS username,email,password,user_type,status FROM clients WHERE status=1
+

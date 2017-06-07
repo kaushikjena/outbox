@@ -1,0 +1,143 @@
+
+/* seo friendly tables */
+.table{
+	display:table;	/* Defines a Table */
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border-bottom:1px solid #808080;
+	/*color:#8d8d8d;*/
+	color:#000;
+	margin:0px 0px;
+	width:100%;
+	border-collapse:collapse;
+}
+.table-head{
+	 display: table-header-group; /* Defines a table header group */
+}
+.table-head .column{ /* Column inside the table-head */
+	background:#E6F9D5;
+	color:#000;
+	font-weight:bold;
+	font-size:12px;
+	/*border-right:1px solid #808080;
+	border-bottom:none;*/
+	border:1px solid #808080;
+	/*width:40%;*/
+}
+
+.table-head .column:hover{ /* Column hover inside the table-head */
+	background:#F3FCEB;
+}
+.row{
+	display:table-row; /* Defines a table row */
+	border-left:1px solid #808080;
+}
+.row .column:nth-child(1){ /* First column in a row */
+	border-left:1px solid #808080;
+	
+}
+.row:last-child .column{  /* column in a last row */
+	border-bottom:none;
+	
+}
+.column{
+	display:table-cell; /* Defines a table cell */
+	padding:10px 10px;
+	border-bottom:1px solid #808080;
+	border-right:1px solid #808080;
+}
+.column a{
+	color:#ff9812;
+	font-weight:bold;
+	text-decoration:none;
+}
+.column a:hover{
+	color:#ff9812;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.column:hover{
+	background:#f9f9f9;
+}
+
+/* Responsive table */
+@media all and (max-width: 750px){
+	.table,
+	.row,
+	.column,
+	.column:before{
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+	}
+	.table,
+	.row .column:last-child{
+		border-bottom:none;
+	}
+	.table-head{
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+	}
+	.row{
+		border:1px solid #eeeeee;
+		border-top:1px solid #dddddd;
+		border-bottom:1px solid #dddddd;
+		margin:20px 0;
+	}
+	.row .column:nth-child(1){ /* first column of the row */
+		border-left:none;
+	}
+	.row .column:last-child{ /* last column of the row */
+		border-right:none;
+	}
+	.row:last-child .column,
+	.column{ /* Column in the last row and column */
+		border-bottom:1px solid #eeeeee;
+		border-right:none;
+	}
+	.column:before{ /* prints the value of data-label attribute before the column data */
+		font-weight:bold;
+		padding-right:20px;
+        font-size:12px;
+		content:" "attr(data-label)" //";	/* call the attribute value of data-label and adds a string // */
+	}
+}
+@media all and (max-width: 640px){
+	.table,
+	.row,
+	.column,
+	.column:before{
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+	}
+	.table,
+	.row .column:last-child{
+		border-bottom:none;
+	}
+	.table-head{
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+	}
+	.row{
+		border:1px solid #eeeeee;
+		border-top:1px solid #dddddd;
+		border-bottom:1px solid #dddddd;
+		margin:20px 0;
+	}
+	.row .column:nth-child(1){ /* first column of the row */
+		border-left:none;
+	}
+	.row .column:last-child{ /* last column of the row */
+		border-right:none;
+	}
+	.row:last-child .column,
+	.column{ /* Column in the last row and column */
+		border-bottom:1px solid #eeeeee;
+		border-right:none;
+	}
+	.column:before{ /* prints the value of data-label attribute before the column data */
+		font-weight:bold;
+		padding-right:20px;
+		font-size:12px;
+		content:" "attr(data-label)" //";	/* call the attribute value of data-label and adds a string // */
+	}
+}

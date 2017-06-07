@@ -1,0 +1,24 @@
+<?php 
+	//ob_start();
+	session_start();
+	if($_REQUEST['src']=='disp'){
+		unset($_SESSION['requestp']);
+		$_SESSION['requestp']='';
+	}elseif($_REQUEST['src']=='disp_cmpltd'){
+		unset($_SESSION['requestc']);
+		$_SESSION['requestc']='';
+	}elseif($_REQUEST['src']=='assigned'){
+		unset($_SESSION['requesta']);
+		$_SESSION['requesta']='';
+	}elseif($_REQUEST['src']=='wfp'){
+		unset($_SESSION['requestw']);
+		$_SESSION['requestw']='';
+	}elseif($_REQUEST['src']=='hold'){
+		unset($_SESSION['requesth']);
+		$_SESSION['requesth']='';
+	}elseif($_REQUEST['src']=='open'){
+		unset($_SESSION['requesto']);
+		$_SESSION['requesto']='';
+	}
+	echo "1";
+?>

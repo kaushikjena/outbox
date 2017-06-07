@@ -1,0 +1,47 @@
+Test Sign up - https://developer.authorize.net/testaccount/
+Sample Code - http://developer.authorize.net/downloads/samplecode/ 
+
+
+Email : sureshkumar02@rediffmail.com
+
+
+Test Signin - https://test.authorize.net/
+----------------------------------------------------
+Login id : sureshkumar02
+psw: Suresh123!@#
+
+-------------------------------------------------------
+
+API Login ID :  388bAx9teM2u
+Transaction Key : 2gzVe4j5U968Nx7v
+
+---------------------------------------------------
+
+Simon Says the Secret Answer
+For test accounts, the secret question answer to reset your password is always Simon. Make sure it's capitalized.
+
+
+-----------------------------
+
+Test login : sukanta123
+
+password : Sukanta123!@#
+
+
+API Login ID: 436z94dPZB 
+
+Transaction Key : 5K5WM5h3zWUJq47U
+
+Secrete question : Simon
+
+//test cards
+
+ Vissa test card : 4111111111111111  exp date : 01/15
+
+American Express Test Card:	370000000000002
+Discover Test Card:	6011000000000012
+Visa Test Card	:4007000000027
+Second Visa Test Card: 4012888818888
+JCB	: 3088000000000017
+Diners Club/ Carte Blanche: 38000000000006
+

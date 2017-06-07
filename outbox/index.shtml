@@ -1,0 +1,441 @@
+<html>
+
+<head>
+
+<title>Boxware delivery and Assembly Management Systems</title>
+
+<meta name="keywords" content="delivery and assemby software, technician field portal, boxware, customer managment system, orders, repairs projects, instore sollutions">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style type="text/css">
+
+.bottombg {
+
+	background-image: url(Images/Template/boxware-template_r13_c2.jpg);
+
+}
+
+.bgleft {
+
+	background-image: url(Images/Template/boxware-template_r9_c2.jpg);
+
+}
+
+.bgright {
+
+	background-image: url(Images/Template/boxware-template_r9_c8.jpg);
+
+}
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+
+.Logonbox {
+
+	background-image: url(Images/logonbox.jpg);
+
+}
+
+.formfont {
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 12px;
+
+}
+
+.hiddentxt {
+
+	font-size: 9px;
+
+	font-weight: lighter;
+
+	color: #999;
+
+}
+
+.white {
+
+	font-size: 12px;
+
+	color: #FFF;
+
+}
+
+</style>
+
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+
+<script src="SpryAssets/SpryValidationPassword.js" type="text/javascript"></script>
+
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+
+<link href="SpryAssets/SpryValidationPassword.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body bgcolor="#999999">
+
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" style="display:;">
+
+  <tr>
+
+   <td><img src="Images/Template/spacer.gif" width="22" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="10" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="49" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="596" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="9" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="140" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="43" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="10" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="21" height="1" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="1" border="0" alt=""></td>
+
+  </tr>
+
+
+
+  <tr>
+
+   <td rowspan="18">&nbsp;</td>
+
+   <td colspan="7"><img src="Images/Template/boxware-template_r1_c2.jpg" alt="" name="boxwaretemplate_r1_c2" width="857" height="45" border="0" usemap="#boxwaretemplate_r1_c2Map"></td>
+
+   <td rowspan="18">&nbsp;</td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="45" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img src="Images/Template/boxware-template_r2_c2.jpg" alt="" name="boxwaretemplate_r2_c2" width="857" height="36" border="0" usemap="#boxwaretemplate_r2_c2Map"></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="36" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img src="Images/Template/boxware-template_r3_c2.jpg" alt="" name="boxwaretemplate_r3_c2" width="857" height="45" border="0" usemap="#boxwaretemplate_r3_c2Map"></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="45" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img src="Images/Template/boxware-template_r4_c2.jpg" alt="" name="boxwaretemplate_r4_c2" width="857" height="36" border="0" usemap="#boxwaretemplate_r4_c2Map"></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="36" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img name="boxwaretemplate_r5_c2" src="Images/Template/boxware-template_r5_c2.jpg" width="857" height="66" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="66" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td><img name="boxwaretemplate_r6_c2" src="Images/Template/boxware-template_r6_c2.jpg" width="10" height="29" border="0" alt=""></td>
+
+   <td><img name="boxwaretemplate_r6_c3" src="Images/Template/boxware-template_r6_c3.jpg" width="49" height="29" border="0" alt=""></td>
+
+   <td colspan="3"><img name="boxwaretemplate_r6_c4" src="Images/Template/boxware-template_r6_c4.jpg" width="745" height="29" border="0" alt=""></td>
+
+   <td><img name="boxwaretemplate_r6_c7" src="Images/Template/boxware-template_r6_c7.jpg" width="43" height="29" border="0" alt=""></td>
+
+   <td><img name="boxwaretemplate_r6_c8" src="Images/Template/boxware-template_r6_c8.jpg" width="10" height="29" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="29" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td rowspan="3" class="bgleft">&nbsp;</td>
+
+   <td colspan="5" rowspan="3" valign="top" bgcolor="#000000"><table width="100%" border="0">
+
+     <tr class="white">
+
+       <td colspan="3"><blockquote>
+
+         <p class="white">&nbsp;</p>
+
+         <p class="white">Boxware Developments is proud to announce the release of Boxware Service Management System v1.0 approximately mid month July.</p>
+
+         <p class="white">Along with today's strongest security protocols we have geared a solution to cater specifically to the logistics and field management of Delivery, Assembly and Repairs.</p>
+
+         <ul>
+
+           <li>Scheduling &amp; Dispatch</li>
+
+           <li>Route Optimization</li>
+
+           <li>Inventory &amp; Parts Logistics</li>
+
+           <li>Mobile &amp; Offline</li>
+
+           <li>Social Collaboration</li>
+
+           <li>Signature Capture</li>
+
+           <li>Smart Phone via Application </li>
+
+           <li>Field Capabilities</li>
+
+         </ul>
+
+         <p>While this application is being developed specifically for proprietary use, our development team has prefabricated the structure so that our future development v2.2 plans can place it above all and with an interesting twist. Stay tuned for what will be hands down the best in the industry</p>
+
+         <p>&nbsp;</p>
+
+       </blockquote>         </td>
+
+       </tr>
+
+     <tr>
+
+       <td width="25%" height="235">&nbsp;</td>
+
+       <td width="46%" valign="top" class="Logonbox"><form name="form1" method="post" action="sys/outbox/login-process.php">
+       <input type="hidden" name="action" value="login"/>
+       <input type="hidden" name="loginsrc" value="root"/>
+         <table width="100%" border="0">
+
+           <tr>
+
+             <td width="3%" height="89">&nbsp;</td>
+
+             <td width="26%">&nbsp;</td>
+
+             <td width="70%">&nbsp;</td>
+
+             <td width="1%">&nbsp;</td>
+
+             </tr>
+
+           <tr>
+
+             <td height="31">&nbsp;</td>
+
+             <td align="right" valign="top" class="formfont">Email ID:</td>
+
+             <td valign="top"><span id="sprytextfield1">
+
+             <label for="user"></label>
+
+             <input name="EmailLogin" type="text" id="user" size="20" >
+
+             <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldMinCharsMsg">Minimum characters not met.</span><span class="textfieldMaxCharsMsg">Exceeded max characters.</span></span></td>
+
+             <td>&nbsp;</td>
+
+             </tr>
+
+           <tr>
+
+             <td>&nbsp;</td>
+
+             <td align="right" class="formfont">Password:</td>
+
+             <td valign="top"><span id="sprypassword1">
+
+             <label for="pass"></label>
+
+             <input name="PasswordLogin" type="password" id="pass" size="20" >
+
+             <span class="passwordRequiredMsg">A value is required.</span><span class="passwordMinCharsMsg">Minimum  not met.</span><span class="passwordMaxCharsMsg">Exceeded characters.</span><span class="passwordInvalidStrengthMsg">doesn't meet strength.</span></span></td>
+
+             <td>&nbsp;</td>
+
+             </tr>
+
+           <tr>
+
+             <td>&nbsp;</td>
+
+             <td>&nbsp;</td>
+
+             <td><input type="submit" name="Submit" id="Submit" value="Login"></td>
+
+             <td>&nbsp;</td>
+
+             </tr>
+
+           <tr>
+
+             <td>&nbsp;</td>
+
+             <td>&nbsp;</td>
+
+             <td>&nbsp;</td>
+
+             <td>&nbsp;</td>
+
+             </tr>
+
+         </table>
+
+       </form></td>
+
+       <td width="29%">&nbsp;</td>
+
+     </tr>
+
+   </table></td>
+
+   <td rowspan="3" class="bgright">&nbsp;</td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="222" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="11" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="15" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td class="bgleft">&nbsp;</td>
+
+   <td colspan="5" bgcolor="#000000">&nbsp;</td>
+
+   <td align="right" class="bgright">&nbsp;</td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="5" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img name="boxwaretemplate_r11_c2" src="Images/Template/boxware-template_r11_c2.jpg" width="857" height="29" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="29" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7" rowspan="2" class="bottombg">&nbsp;</td>
+
+   <td>&nbsp;</td>
+
+  </tr>
+
+  <tr>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="14" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img name="boxwaretemplate_r14_c2" src="Images/Template/boxware-template_r14_c2.jpg" width="857" height="31" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="31" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img name="boxwaretemplate_r15_c2" src="Images/Template/boxware-template_r15_c2.jpg" width="857" height="33" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="33" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7"><img name="boxwaretemplate_r16_c2" src="Images/Template/boxware-template_r16_c2.jpg" width="857" height="22" border="0" alt=""></td>
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="22" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="7" rowspan="2" class="hiddentxt">delivery and assemby software, technician field portal, boxware, customer managment system, orders, repairs projects, instore sollutions
+
+   <td><img src="Images/Template/spacer.gif" width="1" height="25" border="0" alt=""></td>
+
+  </tr>
+
+  <tr>
+
+   <td>&nbsp;</td>
+
+  </tr>
+
+</table>
+
+<map name="boxwaretemplate_r1_c2Map">
+
+  <area shape="rect" coords="51,11,300,198" href="http://oo-thebox.com">
+
+</map>
+
+<map name="boxwaretemplate_r2_c2Map">
+
+  <area shape="rect" coords="55,1,297,37" href="http://oo-thebox.com">
+
+</map>
+
+<map name="boxwaretemplate_r3_c2Map">
+
+  <area shape="rect" coords="61,0,292,43" href="http://oo-thebox.com">
+
+</map>
+
+<map name="boxwaretemplate_r4_c2Map">
+
+  <area shape="rect" coords="66,-8,284,33" href="http://oo-thebox.com">
+
+</map>
+
+<script type="text/javascript">
+
+//var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {minChars:6, maxChars:8});
+
+//var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1", {minChars:6, maxChars:8, minAlphaChars:1, maxAlphaChars:6, minNumbers:1, maxNumbers:6, minUpperAlphaChars:1, maxUpperAlphaChars:6, minSpecialChars:1, maxSpecialChars:1});
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {minChars:6, maxChars:100});
+
+var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1", {minChars:6, maxChars:100});
+</script>
+
+</body>
+
+</html>
+

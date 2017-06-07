@@ -1,0 +1,155 @@
+img
+{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	border:none;
+	outline:none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section ,content{ 
+    display: block;
+}
+a
+{
+	border:none;
+	outline:none;
+}
+
+.spacer
+{
+	height:5px;
+	clear:both;
+}
+.version-txt{display: inline-block;
+    border: 1px solid #dedede;
+    padding: 2px 5px;
+    color: #FFF;
+    border-radius: 4px;
+    position: absolute;
+    left: 22%;
+    top: 22px;
+}
+/*General Setting*/
+
+body
+{
+	/*background: #e6f9d5 url(../images/body-bg.png) repeat-x;*/
+	background: #ede9ba url(../images/body-bg.png) repeat-x;
+	margin:0px;
+	padding:0px;
+}
+.mainbg{
+     background:url(../images/tecimg.png) no-repeat;
+     background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+  }
+.logo{
+     margin:15px 0 0 30px;
+	 text-align:left;
+	 margin-left:20px;
+	 }
+.logbg{
+     background:#FFFFFF;
+     border:1px solid #9f9f9f;
+	 border-radius:6px;
+	 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	 width:500px;
+	 overflow:auto;
+	 margin:0 auto;
+	 margin-top:80px;
+	 margin-bottom:120px;
+	 }
+.logleft{
+    float:left;
+	width:150px;
+	margin-top:60px;
+	margin-left:20px;
+	}
+.logright{
+    float:left;
+	width:320px;
+	height:auto;
+	margin-top:40px;
+	}
+.idtext{
+    font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin:8px 0px 8px 0px;
+	font-weight:bold;
+     	}	
+	
+.tfcon
+{
+	width:290px;
+	background-position:top;
+	height:22px;
+	border:1px solid #cecfcf;
+	border-radius:5px;
+	padding-top:2px;
+	background-image:url(../images/inputbg.png);
+	background-repeat:repeat-x;
+}
+.logintxtbox
+{
+	border:none;
+	background:none;
+	background-color:transparent;
+	outline:none;
+	width:98%;
+	padding-left:5px;
+}
+.pswtext{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	float:left;
+	width:150px;
+	height:30px;
+	margin-top:15px;
+}
+.pswtext a{
+	color:#000000;
+	text-decoration:none;
+}
+.pswtext a:hover{
+	color:#000000;
+	text-decoration:underline;
+}			
+.subbtn{
+    float:right;
+	width:100px;
+	height:30px;
+	margin-top:15px;
+	margin-right:25px;
+	}
+.subcon{ 
+   width:300px;
+   }	
+.footbg{
+    background:url(../images/footerbg.png) repeat-x;
+	height:40px;
+	}	
+	
+.footext{
+    float:left; 
+	font-family:'Tahoma'; 
+	font-size:12px; 
+	color:#FFFFFF;
+	margin-top:8px;
+	margin-left:8px;
+	}	
+	
+.fooimg{
+   float:right; 
+   padding:5px; 
+}
+/*****************************/
+.redText{ font-family:Tahoma, Geneva, sans-serif; font-size:11px; font-weight:normal;color:#F00;}
+.greenText{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#090;}
+/*****************************/
+ 	

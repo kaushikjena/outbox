@@ -1,0 +1,1125 @@
+@media screen and (max-width: 750px){
+	img
+	{
+		max-width: 100%;
+		height: auto;
+		width: auto;
+		border:none;
+		outline:none;
+	}
+	
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section ,content{ 
+		display: block;
+		margin:0px;
+		padding:0px;
+	}
+	a
+	{
+		border:none;
+		outline:none;
+	}
+	
+	.spacer
+	{
+		height:5px;
+		clear:both;
+	}
+	
+	/*General Setting*/
+	
+	body
+	{
+		background: #e6f9d5 url(../images/body-bg.png) repeat-x;
+		margin:0px;
+		padding:0px;
+	}
+	
+	#maindiv
+	{
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+	
+	.header
+	{
+		height:104px;
+		width:100%;
+	}
+	
+	.logo
+	{
+		height:100px;
+		width:181px;
+		position:absolute;
+		top:10px;
+		left:20px;
+		float:left;
+	}
+	
+	.searchdiv
+	{
+		width:350px;
+		float:right;
+		background-color:#FFF;
+		-moz-box-shadow:    inset 0 0 10px #CCC;
+		-webkit-box-shadow: inset 0 0 10px #CCC;
+		 box-shadow:        inset 0 0 10px #CCC;
+		padding:3px 0px 3px 3px;
+		margin:8px 15px 0px 0px;
+		border:1px solid #CCC;
+		border-radius:6px;
+	}
+	.seardivtxtbox
+	{
+		width:320px;
+		float:left;
+	}
+	.searchtextbox
+	{
+		width:99%;
+		padding:3px;
+		border:none;
+		background:none;
+		outline:none;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#000;
+	}
+	.searchbtn
+	{
+		width:22px;
+		height:22px;
+		float:left;
+	}
+	.logininfo
+	{
+		width:auto;
+		float:right;
+		margin:15px 15px 0px 0px;
+	}
+
+	
+	.welcome
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-align:right;
+		color:#FFF;
+		width:auto;
+		float:left;
+		margin-right:10px;
+		padding-top:8px;
+		
+	}
+	
+	.welcome span
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-align:right;
+		color:#0C0;
+	}
+	
+	.logoutdiv{
+		float:left;
+		width:80px;
+		text-align:right;
+	}
+	
+	/*Nav*/
+	#navmenu
+	{
+		display:none;	
+	}
+	
+	
+	#dropnavbg
+	{
+		display:none;
+	}
+
+	/*ReS Nav*/
+	#resnav
+	{
+		display:block;
+	}
+	
+	#contentdiv
+	{
+		margin:10px;
+		clear:both;
+	}
+	
+	.leftcolum
+	{
+		background:#FFFFFF;
+		border:1px solid #9f9f9f;
+		border-radius:6px;
+		box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		width:100%;
+		min-height:150px;
+		overflow:auto;
+		float:left;
+		margin-top:10px;
+	}
+	
+	
+	.leftcoluminner
+	{
+		width:96%;
+		margin:0 auto;
+	}
+	
+	.rightcolum
+	{
+		 background:#FFFFFF;
+		 border:1px solid #9f9f9f;
+		 border-radius:6px;
+		 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 min-height:150px;
+		 overflow:auto;
+		 width:100%;
+		 float:left;
+		 margin-top:10px;
+		 margin-left:0px;
+	}
+	.rightcoluminner
+	{
+		width:96%;
+		margin:0 auto;
+	}
+	.headerbg
+	{
+		background-image:url(../images/headerbg.png);
+		background-repeat:repeat;
+		height:auto;
+		overflow:auto;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:18px;
+		color:#FFF;
+		text-shadow:1px 1px 0 rgba(0,0,0, 0.5);
+		text-transform:uppercase;
+		padding-left:10px;
+		padding-top:8px;
+		margin:0 auto;
+		margin-top:10px;
+	}
+	
+	/*Footer*/
+	.footbg{
+		background-image:url(../images/footerbg.png);
+		background-repeat:repeat;
+		height:auto;
+		overflow:auto;
+		}	
+		
+	.footext{
+		float:left; 
+		font-family:'Tahoma'; 
+		font-size:12px; 
+		color:#FFFFFF;
+		margin-top:8px;
+		margin-left:8px;
+		}	
+		
+	.fooimg{
+	   float:right; 
+	   padding:5px; 
+	}
+	/**************new css*********************/
+	.innertable{
+		width:450px; margin:0 auto; margin-top:30px;
+	}
+	.formtextadd{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		font-weight:normal;
+		float:left; 
+		width:100px;
+		line-height:25px;
+		font-weight:bold;
+	}
+	.textboxc{
+		float:left; width:300px;
+		margin-left:0px;
+	}
+	.textbox{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #cecfcf;
+		border-radius:5px;
+		padding-top:2px;
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-left:5px;
+	}
+	.textarea
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		width:96%;
+		height:50px;
+		border-radius:5px;
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		border:1px solid #cecfcf;
+		resize:none;
+		padding-left:5px;
+	}
+	.textboxview{
+		float:right; width:300px;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		font-weight:normal;
+		line-height:25px;
+	}
+	.viewimage{
+		float:right; 
+		border:solid 1px #999;
+		width:100px; 
+		margin-top:10px; 
+		margin-right:20px; 
+		margin-left:20px;
+	}
+	.innerDivTech{
+		width:100%; 
+		margin:0 auto;
+		margin-top:0px;
+		margin-left:0px;
+		float:left;
+	}
+	.TechImgDiv
+	{
+		width:300px;
+		float:right;
+		height:auto;
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+	
+	.TechImgDivCon
+	{
+		width:90px;
+		height:120px;
+		float:left;
+		margin-left:10px;
+	}
+	
+	.TechImgDivCon img
+	{
+		width:90px;
+		height:120px;
+	}
+	/***********job css*****************/
+	.divAddress{
+		width:99%;
+		border:1px solid #808080;
+		float:none;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		color:#666;
+		padding-left:2px;
+		line-height:20px;
+	}
+	.divPurchase{
+		width:99%;
+		border:1px solid #808080;
+		float:right;
+		margin-right:0px;
+		padding-left:5px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.divPickup{
+		width:99%;
+		border:1px solid #808080;
+		float:left;
+		margin-left:0px; 
+		padding-left:5px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.divService{
+		width:99%;
+		border:1px solid #808080;
+		float:none; 
+		margin-right:0px; 
+		padding-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+	}
+	.divNotes{
+		border:1px solid #808080;
+		width:99%;
+		margin-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+	}
+	.repairDiv{
+		border:1px solid #808080;
+		float:none; 
+		margin-left:0px; 
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		background-color:#999;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset; 
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	}
+	.techDiv{
+		border:1px solid #808080;
+		float:none; 
+		margin-right:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		background-color:#999;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset; 
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	}
+	.textboxcwo{
+		float:left; width:200px;;
+		margin-left:0px;
+		margin-right:5px;
+	}
+	/***********job css*****************/
+	/***********search css*****************/
+	.formtextaddsrch{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		
+	}
+	.formtextaddsrchsmall{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		
+	}
+	.textboxcsrch{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.textboxcsrchsmall{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.textboxsrch{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #cecfcf;
+		border-radius:5px;
+		padding-top:0px;
+		/*background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;*/
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-left:5px;
+	}
+	/***********searchcss*****************/
+	/**********Assign tech css***************/
+	.technicianjobboard
+	{
+		 background:#FFFFFF;
+		 border:1px solid #9f9f9f;
+		 border-radius:6px;
+		 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 width:100%;
+		 overflow:auto;
+	}
+	.formtextaddtech{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+		
+	}
+	.textboxctech{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.technicianworkboard
+	{
+		 background:#FFFFFF;
+		 border:1px solid #9f9f9f;
+		 border-radius:6px;
+		 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 width:100%;
+		 overflow:auto;
+	}
+	.textboxfancjob{
+		float:left; 
+		width:100%;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-top:5px;
+	}
+	.formtextaddtechlong{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+	}
+	.formtextaddtechview{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:normal;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+	}
+	/**********Assign tech css***************/
+	/**************service price css**************/
+	.innerService{
+		width:100%; 
+		margin:0 auto; 
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.prService1{
+		width:100%;
+		margin-left:0px;
+	}
+	.prService{
+		width:100%;
+		margin-left:0px;
+	}
+	.textboxserprc{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.textboxcservice{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.formtextaddservice{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+		
+	}
+	.textboxserview{
+		float:left; 
+		width:100%;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		color:#666;
+		font-weight:normal;
+		line-height:25px;
+	}
+	/**************service price css**************/	
+	/**************report price**************/
+	.reportSubtotal{
+		width:60%;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#090;
+		font-weight:bold; 
+		float:left; 
+		text-align:right;
+	}
+	.reportPrice{
+		width:40%;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#090;
+		font-weight:bold; 
+		float:left; 
+		text-align:center;
+	}
+	/**************report price**************/
+
+}
+@media screen and (max-width:600px){
+	
+	body
+	{
+		background: #e6f9d5 url(../images/body-bg1.png) repeat-x;
+		margin:0px;
+		padding:0px;
+	}
+	.header
+	{
+		height:auto;
+		width:100%;
+	}
+	.logo
+	{
+		display:none;
+	}
+	
+	.reslogo
+	{
+		display:block;
+		text-align:center;
+		clear:both;
+	}
+	.searchdiv
+	{
+		width:auto;
+		float:none;
+		margin:0 auto;
+		background-color:#FFF;
+		-moz-box-shadow:    inset 0 0 10px #CCC;
+		-webkit-box-shadow: inset 0 0 10px #CCC;
+		 box-shadow:        inset 0 0 10px #CCC;
+		padding:3px 0px 3px 3px;
+		margin:2px 5px 0px 5px;
+		border:1px solid #CCC;
+		border-radius:6px;
+		height:25px;
+	}
+	.seardivtxtbox
+	{
+		width:90%;
+		float:left;
+	}
+	.searchbtn
+	{
+		width:22px;
+		height:22px;
+		float:left;
+	}
+	.logininfo
+	{
+		width:auto;
+		float:right;
+		margin:15px 15px 15px 0px;
+	}
+
+	/***********job css*****************/
+	.formtextaddjob{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		
+	}
+	.formtextaddjoblong{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+		
+	}
+	.formtextaddjoblarge{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+	}
+	.textboxcjob{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.textboxjob{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #999;
+		border-radius:5px;
+		padding-top:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		color:#666;
+		padding-left:5px;
+	}
+	.selectboxjob{ 
+		width:97%;
+		background-position:top;
+		height:25px;
+		border:1px solid #999;
+		border-radius:5px;
+		padding:3px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		color:#666;
+		padding-left:5px;
+		vertical-align:middle;
+	}
+	.textareajob
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		width:96%;
+		height:50px;
+		border-radius:5px;
+		border:1px solid #999;
+		resize:none;
+		padding-left:5px;
+	}
+	.clService{
+		width:100%;
+	}
+	.clEquipment{
+		width:100%;
+	}
+	.clModel{
+		width:100%;
+	}
+	.clPrice{
+		width:100%;
+	}
+	.clQunt{
+		width:100%;
+	}
+	.clPrice1{
+		width:100%;
+	}
+	/**************billing css**************/
+	.divBilling{
+		width:100%;
+		margin:0 auto;
+		border:1px solid #808080;
+		float:left;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		color:#666;
+		padding-left:5px;
+		line-height:20px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.formtextaddbill{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:50%;
+		line-height:25px;
+		text-align:left;
+		margin-left:0%;
+		
+	}
+	.formtextaddbilllong{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:50%;
+		line-height:25px;
+		text-align:left;
+		margin-left:0%;
+		
+	}
+	.textboxbillview{
+		float:left; 
+		width:50%;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:11px;
+		color:#666;
+		font-weight:normal;
+		line-height:25px;
+	}
+	.blSubtotal{
+		width:70%; 
+		float:left; 
+		height:30px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#090;
+		line-height:25px;
+		text-align:right;
+		margin-right:3%;
+	}
+	.blSubtotalPrice{
+		width:27%; 
+		float:left; 
+		text-align:center;
+		height:30px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#090;
+		line-height:25px;
+	}
+	.innerBilling{
+		width:100%; 
+		margin:0 auto; 
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.textboxcBill{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	/**************billing css**************/
+}
+@media screen and (max-width: 504px){
+	/**************new css*********************/
+	 .innertable{
+		width:100%; margin:0 auto; margin-top:0px;
+	}
+	.formtextadd{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		font-weight:normal;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		font-weight:bold;
+	}
+	.textboxc{
+		float:left; 
+		width:100%; 
+		margin-left:0px;
+	}
+	.textbox{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #cecfcf;
+		border-radius:5px;
+		padding-top:2px;
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-left:5px;
+	}
+	.textarea
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		width:96%;
+		height:50px;
+		border-radius:5px;
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		border:1px solid #cecfcf;
+		resize:none;
+		padding-left:5px;
+	}
+	.textboxview{
+		float:right; width:100%;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		font-weight:normal;
+		line-height:25px;
+	}
+	.viewimage{
+		float:right; 
+		border:solid 1px #999;
+		width:100px; 
+		margin-top:10px; 
+		margin-right:10px; 
+		margin-left:10px;
+	}
+	.innerDivTech{
+		width:100%; 
+		margin:0 auto;
+		margin-top:0px;
+		margin-left:0px;
+		float:left;
+	}
+	.TechImgDiv
+	{
+		width:100%;
+		float:right;
+		height:auto;
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+	
+	.TechImgDivCon
+	{
+		width:90px;
+		height:120px;
+		float:left;
+		margin-left:10px;
+	}
+	
+	.TechImgDivCon img
+	{
+		width:90px;
+		height:120px;
+	}
+	/***********job css*****************/
+	.divAddress{
+		width:99%;
+		border:1px solid #808080;
+		float:none;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		color:#666;
+		padding-left:2px;
+		line-height:20px;
+	}
+	.divPurchase{
+		width:99%;
+		border:1px solid #808080;
+		float:none;
+		margin-right:0px;
+		padding-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.divPickup{
+		width:99%;
+		border:1px solid #808080;
+		float:none;
+		margin-left:0px; 
+		padding-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		margin-bottom:5px;
+	}
+	.divService{
+		width:99%;
+		border:1px solid #808080;
+		float:none; 
+		margin-right:0px; 
+		padding-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+	}
+	.divNotes{
+		border:1px solid #808080;
+		width:99%;
+		margin-left:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+	}
+	.clService{
+		width:100%;
+	}
+	.clEquipment{
+		width:100%;
+	}
+	.clModel{
+		width:100%;
+	}
+	.clPrice{
+		width:100%;
+	}
+	.clQunt{
+		width:100%;
+	}
+	.clPrice1{
+		width:100%;
+	}
+	.repairDiv{
+		border:1px solid #808080;
+		float:none; 
+		margin-left:0px; 
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		background-color:#999;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset; 
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	}
+	.techDiv{
+		border:1px solid #808080;
+		float:none; 
+		margin-right:0px;
+		border-radius:5px; 
+		-mox-border-radius:5px;
+		background-color:#999;
+		-webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset; 
+		-moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+	}
+	.textboxcwo{
+		float:left; width:100%;
+		margin-left:0px;
+		margin-right:5px;
+	}
+	/***********job css*****************/
+	/***********search css*****************/
+	.formtextaddsrch{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		
+	}
+	.formtextaddsrchsmall{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		
+	}
+	.textboxcsrch{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.textboxcsrchsmall{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.textboxsrch{ 
+		width:97%;
+		background-position:top;
+		height:22px;
+		border:1px solid #cecfcf;
+		border-radius:5px;
+		padding-top:0px;
+		/*background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;*/
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-left:5px;
+	}
+	/***********searchcss*****************/
+	/**********Assign tech css***************/
+	.technicianjobboard
+	{
+		 background:#FFFFFF;
+		 border:1px solid #9f9f9f;
+		 border-radius:6px;
+		 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 width:100%;
+		 overflow:auto;
+	}
+	.formtextaddtech{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+		
+	}
+	.textboxctech{
+		float:left; width:100%;
+		margin-left:0px;
+	}
+	.technicianworkboard
+	{
+		 background:#FFFFFF;
+		 border:1px solid #9f9f9f;
+		 border-radius:6px;
+		 box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -webkit-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 -moz-box-shadow:0px 0px 20px 0px #dbdbdb inset;
+		 width:100%;
+		 overflow:auto;
+	}
+	.textboxfancjob{
+		float:left; 
+		width:100%;
+		margin-left:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		color:#666;
+		padding-top:5px;
+	}
+	.formtextaddtechlong{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+	}
+	.formtextaddtechview{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		font-weight:normal;
+		color:#666;
+		float:left; 
+		width:100%;
+		line-height:25px;
+		margin-left:0px;
+	}
+	/**********Assign tech css***************/
+	.divMap{
+		width:100%;
+		float:left; 
+		border:solid 1px #999;
+	}
+	.divCalendar{
+		float:right;
+		width:100%;
+		border:solid 1px #999; 
+		padding:5px;
+	}			
+	
+}
